@@ -8,7 +8,7 @@
   
 The use case is that many companies report their sustainability performance in long PDF reports. There is a strong public interest in analyzing this data on a cross-sectoral basis which requires aggregating and analysing this data at scale. 
 
-As not every company reports their emissions data in data-native or data friendly formats, this creates some work for those trying to do that. 
+ Not every company provides these data points in data native or data friendly formats.  The purpose and intention of this tool is to help a data analyst attempting to understand and read this data to quickly extract that data from these PDF documents accompanied by sources to enable a supervision or verification process. 
 
 # Data Accuracy 
 
