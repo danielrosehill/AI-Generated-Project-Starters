@@ -20,6 +20,10 @@ The mechanisms that make LLMs work also provide some innate variability in respo
 
 If I collect more than one output for a specific code generation prompt, just as I do with the prompts, I will add them individually, whether through one aggregated outputs file or perhaps within a folder within the project folder.
 
+Because these are code generation prompts, almost all of the outputs will contain scripts. Where possible I will save these as scripts within the project folders. If I don't get around to doing that, these grips should simply be embedded within the markdown files recording the outputs and should be easily extractable. 
+
+In the doubly unlikely event that I get round to noting the scripts and more than one script is generated in a single output, I'll gather the scripts generated or code snippets into individual files within a script generated folder or something similar.
+
 ## Model Selection
 
 Just as with trying different prompts with different refinement strategies, I'll sometimes take the same code generation prompt and try it out with different LLMs. 
