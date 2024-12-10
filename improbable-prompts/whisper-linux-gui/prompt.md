@@ -3,7 +3,6 @@
 # Notes
 
 This is a good example of a prompt which I wrote having very little expectations that it would work, or at least not work without a vast amount of effort and debugging and iteration. My reason for attempting this in the first place is that it seems a little tricky to find a GUI that works on Linux for speech to text dictation and which uses Open AI whisper via the API rather than via a self hosted model. 
----
 
 ### **Overview**
 Develop a Python-based GUI application that facilitates real-time speech-to-text transcription using the OpenAI Whisper API. The application must run on Linux, specifically OpenSUSE Linux, and integrate seamlessly with various text input fields across different applications. Below is the detailed specification for the functionality and requirements.
