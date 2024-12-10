@@ -6,6 +6,16 @@ The purpose of this repository is to provide a small aggregation of starters for
 
 As the capabilities of AI tools to generate accurate code increase over time, hopefully the utility of these code snippets will too. 
 
+The project starters are sometimes projects that I'm working on myself. In other instances, their ideas that I've parked for the moment for later evaluation.  
+
+In some instances I record all the details for the start of the project, ie both the prompt that I've written as well as an LLM, improved prompt, and finally one or more outputs or code snippets from a model. In other instances I will just provide the prompt. which can be used for generation. Sometimes I might get round to sharing the outputs generated from it, other times I won't. 
+
+I am deliberately including here both prompts that (at the time of writing), I know from expereience have a reasonably good chance of succeeding. With "success" being defined roughly as generating reasonably workable code on the first output or generating code that can achieve the desired functionalities with a reasonable amount of debugging and iteration.
+
+In other instances, I am including prompts that I would put in the category of "moonshot prompts:" prompts that I know are asking completely unreasonable requests from an AI tool, at least with its current capabilities.  I love experimenting with the latter category of prompts because they provide a good way of testing out the capabilities of some of the state-of-the-art models.
+
+Some light attempts at prompt engineering are made in some of the instructions. Given that elaborate code generation requests almost by nature necessitate lengthy outputs, some kind of chunking instruction is often required, and probably desirable whenever it's ommitted.
+
 ## Repository Structure
  
 The repository is currently organized in the following fashion:
@@ -30,13 +40,21 @@ Just as with trying different prompts with different refinement strategies, I'll
 
 Frequently the differences in response can be quite significant. Different LLMs might recommend completely different approaches for achieving the same aim.
 
+At the time of setting up this repository (December 10th, 2024), my favorite LLMs for code generation are Qwen Coder 2.5 32B (which can be accessed for free via Hugging Face) and Deepseek Coder. However, at this relatively early stage in the exciting evolution of AII remain fairly unattached to anyone, vendor or model, and my usual strategy is to try out many of them with different parameter settings until I find one that does a reasonably good job at the use case I'm trying to execute on.
+
 ## Parameter Recording
 
 Because the capabilities of large language models are so fast evolving, in addition to the prompts and outputs, wherever possible, I'll create a parameters file within the project folder in which I note the details such as the model used, and occasionally I'll also note the system instruction, as well as the temperature and top-P setting used. 
 
 ## Prompt Creation Process
  
- Sometimes, when writing prompts for code generation I go through several iterations. Frequently I will dictate the first prompt so it is quite open-ended and loose. Then, I'll use an LLM to organize the prompt textually with the instruction that it should optimize the prompt for code generation in an LLM specifically. In instances where both prompts are recorded - that is both the dictated prompt and the refined prompt - I'll include both (because sometimes the refined prompt is missing details or could be improved upon in its refinement.)
+ Sometimes, when writing prompts for code generation I go through several iterations.
+ 
+ Frequently I will dictate the first prompt so it is quite open-ended and loose. 
+ 
+ Then, I'll use an LLM to organize the prompt textually with the instruction that it should optimize the prompt for code generation in an LLM specifically. 
+ 
+ In instances where both prompts are recorded - that is both the dictated prompt and the refined prompt - I'll include both (because sometimes the refined prompt is missing details or could be improved upon in its refinement.)
 
 ---
 
